@@ -8,9 +8,14 @@ span {
     color: #5669FF;
 }
 
+a {
+    color: black;
+}
+
 .viewport {
-    width: 100vw;
+    width: auto;
     height: 100vh;
+    background-color: aliceblue;
 }
 
 .navbar {
@@ -27,13 +32,10 @@ span {
     width: 101px;
     height: 62px;
     margin-right: 80px;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
 }
 
 .nav-logo img {
-    width: 100%;
+    width: auto;
     height: 100%;
 }
 
@@ -75,21 +77,33 @@ span {
 
 .hero-section {
     width: auto;
-    height: 500px;
+    height: 850px;
     border: 1px solid black;
+    overflow: hidden;
+    display: flex;
+
 }
 
 .hero-text {
-    width: 55%;
+    width: 40%;
     height: auto;
     border: 1px solid black;
+    margin-top:auto;
+    margin-bottom:auto;
+    display:block;
+
+}
+
+.hero-text h1 {
+    font-size: 40px;
 }
 
 .inputnicon input{
-    width: 405px;
+    width: 305px;
     height: 56px;
-    margin: 8px;
-    /* border: none; */
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
 }
 
 input::placeholder {
@@ -97,22 +111,46 @@ input::placeholder {
     font-size: 16px;
 }
 
+.inputnicon {
+    display: flex;
+    margin-left: 10px;
+}
+
 .hero-picon {
-    width: 60px;
-    height: 45px;
-    background-color: #5669FF;
-    color: #ffffff;
-    border-radius: 10px;
+    width: 100px;
+    height: 56px;
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 15px;
-    position: absolute;
-    left: 410px;
+    border-radius: 0px 5px 5px 0px;
 }
 
+.hero-picon button {
+    width: 65px;
+    height: 38px;
+    border-radius: 10px;
+    background-color: #5669FF;
+    color: #ffffff;
+}
 
-
-.inputnicon {
+.hero-pic {
+    width: 60%;
+    height: auto;
+    background-color: antiquewhite;
+    border: 1px solid black;
     display: flex;
+}
+
+.hpic-1 {
+    width: 50%;
+    height: auto;
+    border: 1px solid black;
+}
+
+.hpic-2 {
+    width: 50%;
+    height: auto;
+    border: 1px solid black;
+    margin-left: -135px;
 }
