@@ -12,19 +12,22 @@ a {
     color: black;
 }
 
-.viewport {
+.whole-doc {
     width: auto;
-    height: 100vh;
-    background-color: aliceblue;
+    height: 100%;
+    margin: 0px 5% 0px 5%;
+    border: 1px solid black;
+    background-color: #ffffffd3;
+    
 }
 
 .navbar {
     width: auto;
     height: 95px;
-    margin: 0px 5% 0px 5%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #ffffff;
     
 }
 
@@ -65,20 +68,18 @@ a {
     color: #ffffff;
     background-color: #5669FF;
     margin-left: 10px;
+    border: none;
 
 }
 
 .main-body {
     width: auto;
     height: auto;
-    border: 1px solid black;
-    margin: 0px 5% 0px 5%;
 }
 
 .hero-section {
     width: auto;
     height: 850px;
-    border: 1px solid black;
     overflow: hidden;
     display: flex;
 
@@ -87,11 +88,9 @@ a {
 .hero-text {
     width: 40%;
     height: auto;
-    border: 1px solid black;
     margin-top:auto;
     margin-bottom:auto;
-    display:block;
-
+    display: block;
 }
 
 .hero-text h1 {
@@ -114,6 +113,7 @@ input::placeholder {
 .inputnicon {
     display: flex;
     margin-left: 10px;
+    background-color: #ffffff;
 }
 
 .hero-picon {
@@ -137,20 +137,137 @@ input::placeholder {
 .hero-pic {
     width: 60%;
     height: auto;
-    background-color: antiquewhite;
-    border: 1px solid black;
+    background-color: #ffffff;
     display: flex;
 }
 
 .hpic-1 {
-    width: 50%;
+    width: 400px;
     height: auto;
-    border: 1px solid black;
 }
 
 .hpic-2 {
-    width: 50%;
+    width: 500px;
     height: auto;
-    border: 1px solid black;
-    margin-left: -135px;
+    margin-left: -115px;
 }
+
+.part-3 {
+    width: auto;
+    min-height: 800px;
+    background-color: #ffffff;
+}
+
+.p3-text {
+    width: auto;
+    min-height: 150px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+.p3-card {
+    width: auto;
+    min-height: 530px;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* position: relative; */
+    
+    
+}
+
+.card {
+    width: 395px;
+    height: 244px;
+    background-color: #f5f5f5;
+    text-align: center;
+    position: relative;  
+}
+
+.card-ele {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+}
+
+.p3-button {
+    width: auto;
+    min-height: 45px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.p3-button  button{
+    width: 143px;
+    height: 43px;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #5669FF;
+    border: none;
+
+}
+
+/* part-4 */
+
+.part-4 {
+    width: auto;
+    min-height: 600px;
+    background-color: #ffffff;
+    margin-top: 30px;
+    display: flex;
+}
+
+.p4-img {
+    width: 43%;
+    min-height: 660px;
+}
+
+.p4-circle {
+    width: 550px;
+    height: 550px;
+    border-radius: 50%;
+    margin-top: 100px;
+    border: 10px solid #C4C4C4;
+    background-color: #5669FF; 
+}
+
+.p4-circle img {
+    margin-top: -129px;
+    margin-left: -30px;
+}
+
+.p4-text {
+    width: 40%;
+    min-height: 600px;
+    margin-left: 50px;
+    position: relative;
+    
+}
+
+.p4text-ele {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.p4text-ele > h4, h2, p{
+    margin-bottom: 8px;
+}
+.playimg {
+    margin-top: 15px;
+}
+.pimg1 {
+    margin: 0px 25px 0px 0px;
+}
+
+
