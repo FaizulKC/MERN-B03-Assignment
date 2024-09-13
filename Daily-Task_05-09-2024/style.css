@@ -416,8 +416,6 @@ textarea {
 
 /* footer section started */
 .part-7 {
-    width: auto;
-    height: 250px;
     margin-top: 100px;
     color: white;
     font-size: 20px;
@@ -437,12 +435,13 @@ textarea {
 .p7icon {
     margin-top: 80px;
 }
+.mricon {
+    margin-right: 50px;
+}
 
 .p7-table {
     width: auto;
     height: auto;
-
-
 }
 
 th{
@@ -450,7 +449,6 @@ th{
     height: 60px;
     text-align: left;
     padding-right: 50px;
-
 }
 
 td {
