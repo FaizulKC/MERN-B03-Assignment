@@ -16,19 +16,16 @@ a {
     width: auto;
     height: 100%;
     margin: 0px 5% 0px 5%;
-    border: 1px solid black;
-    background-color: #ffffffd3;
-    
+    background-color: #ffffffd3; 
 }
-
-.navbar {
+/* Navbar section started */
+ .navbar {                 
     width: auto;
     height: 95px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #ffffff;
-    
 }
 
 .nav-logo {
@@ -58,7 +55,6 @@ a {
 
 .logonlist {
     display: flex;
-    
 }
 
 .nav-button  button{
@@ -71,18 +67,20 @@ a {
     border: none;
 
 }
+/* Navbar section end */
 
+/* Main body strat from here */
 .main-body {
     width: auto;
     height: auto;
 }
 
+/* hero section */
 .hero-section {
     width: auto;
     height: 850px;
     overflow: hidden;
     display: flex;
-
 }
 
 .hero-text {
@@ -151,7 +149,9 @@ input::placeholder {
     height: auto;
     margin-left: -115px;
 }
+/* hero section end  */
 
+/* card section started */
 .part-3 {
     width: auto;
     min-height: 800px;
@@ -166,6 +166,7 @@ input::placeholder {
 
 h2 {
     font-size: 50px;
+    letter-spacing: 3px;
 }
 
 .p3-card {
@@ -175,9 +176,6 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    /* position: relative; */
-    
-    
 }
 
 .card {
@@ -204,7 +202,7 @@ h2 {
     justify-content: center;
     margin-top: 40px;
 }
-.p3-button  button{
+.p3-button  button, .p5-button button{
     width: 143px;
     height: 43px;
     border-radius: 10px;
@@ -213,34 +211,35 @@ h2 {
     border: none;
 
 }
+/* card section end */
 
-/* part-4 */
-
+/* app section started */
 .part-4 {
     width: auto;
     min-height: 600px;
     background-color: #ffffff;
-    margin-top: 30px;
+    margin: 30px 0px 0px 60px;
     display: flex;
 }
 
 .p4-img {
-    width: 43%;
+    width: 500px;
     min-height: 660px;
 }
 
 .p4-circle {
-    width: 550px;
-    height: 550px;
+    width: 450px;
+    height: 450px;
     border-radius: 50%;
     margin-top: 100px;
     border: 10px solid #C4C4C4;
     background-color: #5669FF; 
 }
 
-.p4-circle img {
-    margin-top: -129px;
-    margin-left: -30px;
+#p4imge {
+    width: 480px;
+    height: 550px;
+   margin: -90px 0px 0px -17px;
 }
 
 .p4-text {
@@ -248,7 +247,6 @@ h2 {
     min-height: 600px;
     margin-left: 50px;
     position: relative;
-    
 }
 
 .p4text-ele {
@@ -269,5 +267,202 @@ h2 {
 .pimg1 {
     margin: 0px 25px 0px 0px;
 }
+/* app section end */
+
+/* Information section started */
+.part-5 {
+    width: auto;
+    min-height: 500px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.p5-txt1, .p5-txt2, .p5-txt3 {
+    display: flex;
+    margin-top: 30px;
+}
+
+.txtp1 {
+    margin-right: 30px;
+}
+
+.p5-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img1 {
+    margin: 50px 0px 0px 300px;
+}
+#img2 {
+    margin: 30px 0px 0px -580px;
+}
+
+h4 {
+    font-weight: 400px;
+    padding-bottom: 8px;
+    
+}
+
+.p5-button button{
+    margin-top: 40px;
+    margin-left: 60px;
+}
+/* Information section end */
+
+/* contact section started */
+
+.part-6 {
+    width: 80%;
+    height: 600px;
+    padding-top: 50px;
+    margin: 0 auto;
+    box-shadow: 1.2px 1.2px 5px #B4BEC8;
+}
+
+.p6heading {
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: underline #5669FF;
+    text-underline-offset: 10px;
+}
+
+.p6-form {
+    width: 480px;
+    height: auto;
+    margin: 80px 0px 0px 50px;
+}
+.p6-form p {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+fieldset {
+    height: 65px;
+    border-radius: 5px;
+    border: 2px solid #B4BEC8;
+    
+}
+legend {
+    margin-left: 18px;
+}
+.name {
+    border: none;
+    padding-top: 15px;
+}
+
+.email input{
+    width: 99.5%;
+    height: 60px;
+    margin: 23px 0px 23px 0px;
+    border-radius: 5px;
+    border: 2px solid #B4BEC8;
+}
+
+textarea {
+    width: 99.5%;
+    height: 137px;
+    border-radius: 5px;
+    resize: none;
+    border: 2px solid #B4BEC8;
+}
+
+::placeholder {
+    font-size: 16px;
+    padding: 15px;
+}
+
+.p6-form button {
+    width: 99.5%;
+    height: 50px;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #5669FF;
+    border: none;
+    margin-top: 30px;
+}
+
+.p6-info {
+    width: 500px;
+    height: auto;
+    margin: 130px 0px 0px 70px;
+}
+
+.formninfo {
+    display: flex;
+}
+
+.itptxt {
+    color: black;
+    margin-left: 10px;
+}
+
+.para {
+    margin-bottom: 25px;
+}
+
+.sicon {
+    margin-right: 20px;
+}
+
+#maps-img {
+    margin-top: 25px;
+}
+/* contact section started */
+
+/* footer section started */
+.part-7 {
+    width: auto;
+    height: 250px;
+    margin-top: 100px;
+    color: white;
+    font-size: 20px;
+    background-color: #5669FF;
+    padding: 100px;
+    display: flex;
+    
+}
+
+.p7-text {
+    width: 45%;
+    height: auto;
+}
+.tpara {
+    margin-top: 20px;
+}
+.p7icon {
+    margin-top: 80px;
+}
+
+.p7-table {
+    width: auto;
+    height: auto;
 
 
+}
+
+th{
+    width: auto;
+    height: 60px;
+    text-align: left;
+    padding-right: 50px;
+
+}
+
+td {
+    width: auto;
+    padding-bottom: 18px;
+}
+
+.copyright {
+    width: 100%;
+    height: 60px;
+    margin-top: 110px;
+    text-align: end;
+    font-size: 22px;
+}
+/* footer section end */
