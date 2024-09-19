@@ -1,0 +1,26 @@
+.activity {
+    width: auto;
+    height: 200px;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.colorplate {
+    width: auto;
+    height: 100px;
+    background-color: rgb(160, 204, 243);
+    text-align: center;
+    border: 1px solid whitesmoke;
+    margin-top: 20px;
+   
+}
+table{
+    width:300px;
+    height:300px;
+    border:2px solid black;
+    border-collapse:collapse;
+}
+td,th,tr{
+    border:2px solid black;
+    text-align:center;
+}
